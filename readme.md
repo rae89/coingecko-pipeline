@@ -12,7 +12,7 @@ Docker Containers:
     - path: .//coingecko/docker/db
 2.  app
     - manages the python scripts that pulls and loads data from the api and database.
-    - contains the shell script to run the pthon scrips
+    - contains the shell script to run the python scripts
     - path: ./coingecko/docker/app/src/
 
 Architecture:
