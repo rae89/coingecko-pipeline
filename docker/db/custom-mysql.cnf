@@ -1,0 +1,6 @@
+[mysqld]
+max_allowed_packet=1073741824
+wait-timeout=28800
+max-connections=1000
+innodb_log_buffer_size=32M
+innodb_log_file_size=2047M
