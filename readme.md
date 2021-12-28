@@ -9,11 +9,11 @@ Docker Containers:
 
 1.  db
     - manages the mysql database instance
-    - path: .//coin_gecko/docker/db
+    - path: .//coingecko/docker/db
 2.  app
     - manages the python scripts that pulls and loads data from the api and database.
     - contains the shell script to run the pthon scrips
-    - path: ./coin_gecko/docker/app/src/
+    - path: ./coingecko/docker/app/src/
 
 Architecture:
 
